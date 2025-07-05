@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.parcel-cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Data files - Images and satellite data
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+!data/sample_*.png
+!data/mixed_features.png
+
+# Large satellite data files (GitHub file size limit exceeded)
+*.IMG
+*.LBL
+*.LBR
+*.OAT
+*.SPM
+*.TAB
+*.xml
+*.zip
+
+# Large data directories - TMC and satellite data
+data/
+!data/.gitkeep
+EXTRAS/
+GEOMETRY/
+tmc2_data/
+tmc2_datasets/
+tmc2_extracted/
+tmc2_dtm/
+browse/
+heightmaps/
+landslides/
+boulders/
+miscellaneous/
+
+# Generated/output files
+verification_report.json
+server.log
+*.geojson
+
+# Exclude extra markdown files - only keep README.md and NOVEL_ALGORITHMS.md
+TMC2_INTEGRATION_PLAN.md
+instruction.md
+frontend/README.md
+
+# ML Models
+*.pth
+*.h5
+*.pkl
+*.model
+
+# Misc
+.cache/
+temp/
+tmp/ 
