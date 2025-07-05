@@ -1,4 +1,4 @@
-# Lunar GeoDetect 🌙
+# Lunar GeoDetect 
 
 An AI-powered web application for detecting boulders and landslides on the lunar surface using Chandrayaan mission imagery.
 
