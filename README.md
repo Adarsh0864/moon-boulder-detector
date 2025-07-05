@@ -183,19 +183,3 @@ lunar-geodetect/
 - Morphological operations to identify displaced regions
 - Confidence scoring based on elongation and gradient magnitude
 
-## Future Enhancements
-
-- Integration with actual Chandrayaan DTM data
-- Machine learning models (YOLO/UNet) for improved accuracy
-- Real-time georeferencing with lunar coordinates
-- Batch processing capabilities
-- Historical comparison features
-- Export to ISRO-compatible formats
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is developed for the ISRO Hackathon and educational purposes. 
